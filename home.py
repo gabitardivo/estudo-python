@@ -1,1 +1,6 @@
-from estudo.funcoesPython import *
+from funcoesPython import adicionarItem, exibirInventario
+
+Minhalista = []
+
+adicionarItem(Minhalista)
+exibirInventario(Minhalista)
