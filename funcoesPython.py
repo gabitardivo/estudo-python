@@ -42,7 +42,7 @@ def excluirItem(lista):
   serial=int(input("Digite o serial do equipamento que será excluído: "))
   for elemento in lista:
     if elemento[2]==serial:
-      inventario.remove(elemento)
+      lista.remove(elemento)
 
 #resumo de valores do inventário
 def resumoValores(lista):
