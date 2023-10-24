@@ -2,7 +2,7 @@ def perguntar():
     resposta = input(
         "\n <I> para inserir usuário"
         "\n <P> para procurar usuário"
-        "\n <L> Para localizar o usuário"
+        "\n <L> Para listar os usuários"
         "\n <E> Para excluir usuário"
         "\n Digite opção desejada: ").upper()
     return  resposta
