@@ -14,3 +14,20 @@ def inserir(dicionario):
         input("Digite a estação: ")
     ]
     print(dicionario)
+
+def pesquisar(dicionario, chave):
+    lista=dicionario.get(chave)
+    if lista!=None:
+        print("Nome...........: " + lista[0])
+        print("Última estação.: " + lista[1])
+
+def excluir(dicionario, chave):
+    if dicionario.get(chave)!=None:
+        del dicionario[chave]
+    print("Objeto Eliminado")
+
+def listar(dicionario):
+    for chave, valor in dicionario.items():
+        print("Objeto......")
+        print("Login: ", chave)
+        print("Dados: ", valor)
